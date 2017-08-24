@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jymama.WebSite", "jymama.WebSite\jymama.WebSite.csproj", "{B1AC8DF5-5265-4BAA-88BF-E1ADE4153B1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jymama.WebSite.Tests", "jymama.WebSite.Tests\jymama.WebSite.Tests.csproj", "{474B7A50-BA18-4CBC-9BFF-373260E4F67F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jymama.Procurement", "jymama.Procurement", "{C6731810-4247-4B23-87AD-ED1EEF1594AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Procurement.Model", "jymama.Procurement\Procurement.Model\Procurement.Model.csproj", "{B0CAB125-7DD3-49E7-991F-E22F532FFC45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Procurement.IBLL", "jymama.Procurement\Procurement.IBLL\Procurement.IBLL.csproj", "{DBD5FF5B-2913-4CED-9556-62DE264ECBB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Procurement.IDAL", "jymama.Procurement\Procurement.IDAL\Procurement.IDAL.csproj", "{17F9CC4B-E0A8-4BF1-83C5-499178A2C7CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Procurement.DAL", "jymama.Procurement\Procurement.DAL\Procurement.DAL.csproj", "{F484AD44-7DFF-484D-8B17-CA74681DDCB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Procurement.BLL", "jymama.Procurement\Procurement.BLL\Procurement.BLL.csproj", "{6A2924BD-C668-4813-BCFE-EE495EC9F1CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Procurement.Configuration", "jymama.Procurement\Procurement.Configuration\Procurement.Configuration.csproj", "{756521DF-6ACE-414C-9BE0-C932571B3AD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jymama.ClassLibrary", "jymama.ClassLibrary", "{7A9EE17B-3284-4A2C-9F33-1FD44623B55B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acp.DataBase", "jymama.ClassLibrary\Acp.DataBase\Acp.DataBase.csproj", "{E0D70D38-7CFC-406D-B929-4CAE9A50AADC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Procurement.Context", "jymama.Procurement\Procurement.Context\Procurement.Context.csproj", "{F18E5C90-2701-45BF-BB19-A3E70DC44529}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1AC8DF5-5265-4BAA-88BF-E1ADE4153B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1AC8DF5-5265-4BAA-88BF-E1ADE4153B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1AC8DF5-5265-4BAA-88BF-E1ADE4153B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1AC8DF5-5265-4BAA-88BF-E1ADE4153B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{474B7A50-BA18-4CBC-9BFF-373260E4F67F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474B7A50-BA18-4CBC-9BFF-373260E4F67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474B7A50-BA18-4CBC-9BFF-373260E4F67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474B7A50-BA18-4CBC-9BFF-373260E4F67F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0CAB125-7DD3-49E7-991F-E22F532FFC45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0CAB125-7DD3-49E7-991F-E22F532FFC45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0CAB125-7DD3-49E7-991F-E22F532FFC45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0CAB125-7DD3-49E7-991F-E22F532FFC45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBD5FF5B-2913-4CED-9556-62DE264ECBB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD5FF5B-2913-4CED-9556-62DE264ECBB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD5FF5B-2913-4CED-9556-62DE264ECBB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD5FF5B-2913-4CED-9556-62DE264ECBB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17F9CC4B-E0A8-4BF1-83C5-499178A2C7CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17F9CC4B-E0A8-4BF1-83C5-499178A2C7CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17F9CC4B-E0A8-4BF1-83C5-499178A2C7CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17F9CC4B-E0A8-4BF1-83C5-499178A2C7CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F484AD44-7DFF-484D-8B17-CA74681DDCB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F484AD44-7DFF-484D-8B17-CA74681DDCB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F484AD44-7DFF-484D-8B17-CA74681DDCB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F484AD44-7DFF-484D-8B17-CA74681DDCB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A2924BD-C668-4813-BCFE-EE495EC9F1CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A2924BD-C668-4813-BCFE-EE495EC9F1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A2924BD-C668-4813-BCFE-EE495EC9F1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A2924BD-C668-4813-BCFE-EE495EC9F1CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756521DF-6ACE-414C-9BE0-C932571B3AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756521DF-6ACE-414C-9BE0-C932571B3AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756521DF-6ACE-414C-9BE0-C932571B3AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756521DF-6ACE-414C-9BE0-C932571B3AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0D70D38-7CFC-406D-B929-4CAE9A50AADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0D70D38-7CFC-406D-B929-4CAE9A50AADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0D70D38-7CFC-406D-B929-4CAE9A50AADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0D70D38-7CFC-406D-B929-4CAE9A50AADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F18E5C90-2701-45BF-BB19-A3E70DC44529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F18E5C90-2701-45BF-BB19-A3E70DC44529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F18E5C90-2701-45BF-BB19-A3E70DC44529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F18E5C90-2701-45BF-BB19-A3E70DC44529}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0CAB125-7DD3-49E7-991F-E22F532FFC45} = {C6731810-4247-4B23-87AD-ED1EEF1594AA}
+		{DBD5FF5B-2913-4CED-9556-62DE264ECBB3} = {C6731810-4247-4B23-87AD-ED1EEF1594AA}
+		{17F9CC4B-E0A8-4BF1-83C5-499178A2C7CC} = {C6731810-4247-4B23-87AD-ED1EEF1594AA}
+		{F484AD44-7DFF-484D-8B17-CA74681DDCB0} = {C6731810-4247-4B23-87AD-ED1EEF1594AA}
+		{6A2924BD-C668-4813-BCFE-EE495EC9F1CE} = {C6731810-4247-4B23-87AD-ED1EEF1594AA}
+		{756521DF-6ACE-414C-9BE0-C932571B3AD2} = {C6731810-4247-4B23-87AD-ED1EEF1594AA}
+		{E0D70D38-7CFC-406D-B929-4CAE9A50AADC} = {7A9EE17B-3284-4A2C-9F33-1FD44623B55B}
+		{F18E5C90-2701-45BF-BB19-A3E70DC44529} = {C6731810-4247-4B23-87AD-ED1EEF1594AA}
+	EndGlobalSection
+EndGlobal
